@@ -19,26 +19,57 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" src="style.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
-    <!-- Rating state start -->
+    <main>
+      <!-- Rating state start -->
+      <div class="container">
+        <div class="rating-card">
+          <img
+            class="star-icon"
+            src="../images/icon-star.svg"
+            alt="An image of
+          an orange star"
+          />
+          <h3 class="rating-heading">How did we do?</h3>
+          <p class="content">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="rating-grades">
+            <a class="gradeBtn" href="#">1</a>
+            <a class="gradeBtn" href="#">2</a>
+            <a class="gradeBtn" href="#">3</a>
+            <a class="gradeBtn" href="#">4</a>
+            <a class="gradeBtn" href="#">5</a>
+          </div>
+          <button class="submitBtn">Submit</button>
+        </div>
+      </div>
 
-    How did we do? Please let us know how we did with your support request. All
-    feedback is appreciated to help us improve our offering! 1 2 3 4 5 Submit
+      <!-- Rating state end -->
+    </main>
 
-    <!-- Rating state end -->
+    <div class="thank-you-card">
+      <!-- Thank you state start -->
 
-    <!-- Thank you state start -->
+      <img
+        class="thank-you-illustation"
+        src="../images/illustration-thank-you.svg"
+        alt="An illustration of a white script comming out of a smartphone surrounded by a credit card and a big orange circle"
+      />
+      <p class="selected">You selected<span class="rating"> </span>out of 5</p>
+      <h3 class="thank-you-heading">Thank you!</h3>
+      <p class="content">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
 
-    You selected
-    <!-- Add rating here -->
-    out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch!
-
-    <!-- Thank you state end -->
+      <!-- Thank you state end -->
+    </div>
 
     <footer class="attribution">
       Challenge by
