@@ -75,7 +75,6 @@ body {
   flex-direction: column;
   background-color: hsl(213, 19%, 18%);
   border-radius: 1rem;
-  /* Temporary */
   display: none;
 }
 
@@ -153,6 +152,7 @@ body {
   align-items: center;
   background-color: hsl(213, 19%, 18%);
   border-radius: 1rem;
+  display: none;
 }
 
 .thank-you-icon {
@@ -176,6 +176,11 @@ body {
 
 .thank-you-card .content {
   margin-bottom: 1rem;
+}
+
+/* Active status */
+.active-card {
+  display: flex;
 }
 
 /* Footer */
