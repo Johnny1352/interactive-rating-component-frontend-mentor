@@ -75,6 +75,8 @@ body {
   flex-direction: column;
   background-color: hsl(213, 19%, 18%);
   border-radius: 1rem;
+  /* Temporary */
+  display: none;
 }
 
 .star-icon {
@@ -144,13 +146,43 @@ body {
 /* Thank you card */
 
 .thank-you-card {
-  display: none;
+  width: 20.625rem;
+  margin: 100% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1rem;
+}
+
+.thank-you-icon {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.selected {
+  padding: 6px 24px;
+  background-color: hsl(212, 19%, 26%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  margin-bottom: 1.2rem;
+}
+
+.thank-you-heading {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.thank-you-card .content {
+  margin-bottom: 1rem;
 }
 
 /* Footer */
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: #fff;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
