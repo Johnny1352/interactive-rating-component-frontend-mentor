@@ -146,7 +146,7 @@ body {
   margin-bottom: 1rem;
   background-color: hsl(25, 97%, 53%);
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   text-transform: uppercase;
   text-decoration: none;
   display: flex;
@@ -195,13 +195,9 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Active status */
+/* Acti{ve status */
 .active-card {
   display: flex;
-}
-
-.shown {
-  display: inline-block;
 }
 
 .active-grade {
