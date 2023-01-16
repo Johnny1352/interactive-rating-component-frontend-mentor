@@ -19,6 +19,8 @@
       rel="stylesheet"
     />
 
+    <script defer src="script.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
 
@@ -27,6 +29,7 @@
   <body>
     <main>
       <!-- Rating state start -->
+      <p class="error-message">Please select rating before submitting</p>
       <div class="container">
         <div class="rating-card active-card">
           <img
@@ -41,11 +44,11 @@
             feedback is appreciated to help us improve our offering!
           </p>
           <div class="rating-grades">
-            <a class="gradeBtn" href="#">1</a>
-            <a class="gradeBtn" href="#">2</a>
-            <a class="gradeBtn" href="#">3</a>
-            <a class="gradeBtn" href="#">4</a>
-            <a class="gradeBtn" href="#">5</a>
+            <a class="gradeBtn">1</a>
+            <a class="gradeBtn">2</a>
+            <a class="gradeBtn">3</a>
+            <a class="gradeBtn">4</a>
+            <a class="gradeBtn">5</a>
           </div>
           <a class="submitBtn" href="#">Submit</a>
         </div>

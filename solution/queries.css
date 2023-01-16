@@ -1,4 +1,9 @@
 @media (min-width: 26.5625em) {
+  .error-message {
+    top: 35%;
+    left: 38%;
+  }
+
   .rating-card,
   .thank-you-card {
     width: 27rem;
