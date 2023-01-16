@@ -1,0 +1,54 @@
+@media (min-width: 26.5625em) {
+  .rating-card,
+  .thank-you-card {
+    width: 27rem;
+  }
+
+  .star-icon {
+    width: 2.5rem;
+  }
+
+  .rating-heading {
+    font-size: 1.6rem;
+  }
+
+  .content {
+    font-size: 1.2rem;
+  }
+
+  .rating-grades {
+    gap: 1.7rem;
+    margin-bottom: 2rem;
+  }
+
+  .gradeBtn {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .gradeBtn:hover,
+  .gradeBtn:active {
+    background-color: hsl(25, 97%, 53%);
+    transition: all 0.4s ease;
+  }
+
+  .submitBtn {
+    width: 20rem;
+  }
+
+  .submitBtn:hover,
+  .submitBtn:active {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    transition: all 0.4s ease;
+  }
+
+  .selected {
+    margin-bottom: 2rem;
+  }
+
+  .thank-you-heading {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
